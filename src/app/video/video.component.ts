@@ -17,7 +17,7 @@ export class VideoComponent implements OnInit {
   myVar= true;
   tcode : string;
   roomNumber:string;
-  socket = io("http://localhost:3000");
+  socket = io("http://localhost:4000");
   streamConstraints = { audio: true, video: true };
   localStream: any;
   rtcPeerConnection;
